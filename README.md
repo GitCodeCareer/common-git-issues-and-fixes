@@ -4,7 +4,7 @@
 
 ```
 git remote rm origin
-git remote add origin  https://USERNAME:PASSWORD@github.com/username/reponame.git
+sudo git push --set-upstream HTTPS_REPO_URL BRANCH_NAME
 ```
 
-src: https://stackoverflow.com/questions/10116373/git-push-error-repository-not-found
+https://stackoverflow.com/questions/10116373/git-push-error-repository-not-found
